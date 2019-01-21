@@ -2,7 +2,7 @@ def oxford_comma(array)
   str=array.join(", ")
   i=str.rindex(",")
   case array.length 
-  when 3..
+  when 3..n
     str[i]=", and" 
   when 2
      str[i]=" and"
